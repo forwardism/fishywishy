@@ -6,7 +6,8 @@ import { HttpModule }    from '@angular/http';
 
 import {ButtonModule} from 'primeng/primeng';     //accordion and accordion tab
 import {PanelModule} from 'primeng/primeng';
-import {MenuItem} from 'primeng/primeng';            //api
+// import {MenuItem} from 'primeng/primeng';            //api
+import { SliderModule } from 'primeng/primeng';
 
 
 import { AppComponent }  from './app.component';
@@ -29,7 +30,8 @@ import { FishSearchResultComponent }   from './search/fish-search-result/fish-se
     FormsModule,
     HttpModule,
     PanelModule,
-    ButtonModule
+    ButtonModule,
+    SliderModule
   ],
   providers: [ FishingService ],
   bootstrap: [AppComponent]

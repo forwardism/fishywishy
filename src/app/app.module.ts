@@ -3,6 +3,12 @@ import { NgModule }      from '@angular/core';
 import { FormsModule }   from '@angular/forms';
 import { HttpModule }    from '@angular/http';
 
+
+import {ButtonModule} from 'primeng/primeng';     //accordion and accordion tab
+import {PanelModule} from 'primeng/primeng';
+import {MenuItem} from 'primeng/primeng';            //api
+
+
 import { AppComponent }  from './app.component';
 import { FishComponent } from './edibles/fish/fish.component';
 
@@ -21,7 +27,9 @@ import { FishSearchResultComponent }   from './search/fish-search-result/fish-se
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    PanelModule,
+    ButtonModule
   ],
   providers: [ FishingService ],
   bootstrap: [AppComponent]

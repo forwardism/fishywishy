@@ -1,27 +1,34 @@
+<div>
+  <div>
 
-<h1>
-  {{title}}
-</h1>
+    <div id="heading" class="ui-g-12">    
+      <h1>
+       {{title}}
+      </h1>
 
-<p>
-  And text. abcx
-</p>
+      <p>
+        And text. abcx
+      </p>
 
+      <p-panel >
+        <p-header>
+            Header content here
+        </p-header>
+        <p>Body Content content content</p>
+        <button pButton type="button" label="ClickMe"></button>
+      </p-panel>
+    </div>
 
-<p-panel >
-    <p-header>
-        Header content here
-    </p-header>
+    <div id="search" class="ui-g-6">
+      <app-search-tabs></app-search-tabs>
+    </div>
 
+    <div id="results" class="ui-g-6">
+      <p> Search results </p>
+    </div>
 
-
-    <p>Body Content content content</p>
-
-    <button pButton type="button" label="ClickMe"></button>
-
-</p-panel>
-
-
-<app-fish-search-criteria></app-fish-search-criteria>
-
-<p> end. </p>
+    <div id="footer" class="ui-g-12">
+        Footer
+    </div>
+  </div>
+</div>    

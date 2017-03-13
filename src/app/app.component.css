@@ -1,1 +1,16 @@
 
+#heading {
+    background: red;
+}
+
+#footer {
+    background: blue;
+}
+
+#search {
+    background: brown;
+}
+
+#results {
+    background: orange;
+}

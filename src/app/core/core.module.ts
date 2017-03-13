@@ -6,6 +6,7 @@ import {ButtonModule} from 'primeng/primeng';     //accordion and accordion tab
 import {PanelModule} from 'primeng/primeng';
 // import {MenuItem} from 'primeng/primeng';            //api
 import { SliderModule } from 'primeng/primeng';
+import { TabViewModule, AccordionModule } from 'primeng/primeng';
 
 import { throwIfAlreadyLoaded } from './module-import-guard';
 
@@ -14,12 +15,16 @@ import { throwIfAlreadyLoaded } from './module-import-guard';
     CommonModule,
     PanelModule,
     ButtonModule,
-    SliderModule
+    SliderModule,
+    AccordionModule,
+    TabViewModule
   ],
   exports: [
     PanelModule,
     ButtonModule,
-    SliderModule
+    SliderModule,
+    AccordionModule,
+    TabViewModule
   ],
   declarations: []
 })

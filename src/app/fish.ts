@@ -1,6 +1,6 @@
 
 export class Fish {
-  id  : number;
+  id: number;
   name: string;
 
   dob: Date;

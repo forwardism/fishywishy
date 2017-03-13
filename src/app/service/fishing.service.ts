@@ -6,7 +6,8 @@ import 'rxjs/add/operator/toPromise';
 
 const FISH: Fish[] = [
   { id: 1, name: 'Dory', dob: new Date()},
-  { id: 2, name: 'Nemo', dob: new Date()}
+  { id: 2, name: 'Nemo', dob: new Date()},
+  { id: 3, name: 'Flakes', dob: new Date()}
 ];
 
 
